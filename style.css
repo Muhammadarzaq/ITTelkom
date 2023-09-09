@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+    font-family: 'poppins','sans-serif';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* ------------navbar-------- */
+li{
+    padding: 5px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover {
+    border-bottom: 2px solid blue ;
+    transition: .1s;
+}
+
+/* section */
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section */
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+H6{
+    font-family: 'poppins','sans-serif';
+}
+
+/* service */
+.card >img{
+    height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Hindari gambar menjadi terlalu memanjang atau terlalu lebar */
+  }
